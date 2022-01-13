@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Averta";
+    src: url("../tipografía/AvertaDemoPE-ExtraBold.otf");
+}
+@font-face {
+    font-family: "AvertaR";
+    src: url("../tipografía/AvertaDemoPECuttedDemo-Regular.otf");
+}
+
+body{
+    background-image: url('../1x/fondo_n.svg');
+    background-repeat: no-repeat;
+    background-size:auto;
+} 
+#enlace{
+    background-color: #dda77b;
+    padding: 0.5%;
+    border-radius: 1em;
+}
+
+#enlace a{
+    color: white;
+}
+
+.nav .active>.nav-link {
+    color: #6e5037;
+   }
+
+.logo{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.section{
+    margin: 25% 15% 0% 15%;
+    font-family: "Averta";
+    
+}
+
+p{
+    width: 100%;
+    font-family: "AvertaR";
+    color: #41393e;
+    font-size: 150%;
+}
+
+a{
+    font-size: 120%;
+}
+
+img{
+    display:block;
+}
+
+img.imagen{
+    width: 75%;
+    border: #bf9aca 10px solid;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: #dda77b;
+}
+
+h2{
+    color: #2d93ad;
+    opacity: 0.6;
+}
+
+h3{
+    color: #bf9aca;
+    
+}
+
+a.enlace{
+    text-decoration: none;
+    color: #41393e70
+}
+
+a.enlace:hover{
+    text-decoration: none;
+    color: #41393e90;
+}
+img.fotografia, img.vistete{
+    width: 100%;
+}
+.hacia-arriba{
+    display: none;
+    padding: 1%;
+    background-color: #2d93ad;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    border-radius: 50%;
+}
+.form{
+    text-align: center;
+    background-color: #dda77b;
+    width: 80%;
+    border-radius: 1em;
+    padding: 1em 1em;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input{
+    font-family: "AvertaR";
+}
+.button{
+    font-family: "Averta";
+}
+a.cv{
+    color: #2d93ad;
+    font-size: 90%;
+}
+
+a.cv:hover{
+    color: #20606f;
+}
+
